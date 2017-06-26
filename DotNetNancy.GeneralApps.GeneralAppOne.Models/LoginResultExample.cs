@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DotNetNancy.Model
+namespace DotNetNancy.GeneralApps.GeneralAppOne.Models
 {
     [DataContract]
     public sealed class LoginResult

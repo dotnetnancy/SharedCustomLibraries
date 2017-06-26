@@ -1,18 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Linq;
-using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
+﻿using DotNetNancy.GeneralApps.GeneralAppOne.DataLayer;
+using DotNetNancy.GeneralApps.GeneralAppOne.Models;
 using log4net;
-using log4net.Repository.Hierarchy;
-using DotNetNancy.GeneralApps;
-using DotNetNancy;
-using DotNetNancy.DataLayer;
-using DotNetNancy.Model;
+using System;
+using System.Reflection;
 
-namespace DotNetNancy.GeneralApps.Authentication.Business
+namespace DotNetNancy.GeneralApps.GeneralAppOne.Business
 {
     public class AuthenticationBusiness : IAuthenticationBusiness
     {

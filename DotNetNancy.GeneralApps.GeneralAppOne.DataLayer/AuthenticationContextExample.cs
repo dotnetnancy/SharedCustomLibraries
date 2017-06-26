@@ -1,4 +1,4 @@
-﻿using DotNetNancy.Model;
+﻿using DotNetNancy.GeneralApps.GeneralAppOne.Models;
 using NextGear.Generic.Data.Core;
 using System;
 using System.Data.Entity;
@@ -7,7 +7,7 @@ using System.Data.Entity.ModelConfiguration;
 using System.Security.Policy;
 
 
-namespace DotNetNancy.GeneralApps.Generic.DataLayer
+namespace DotNetNancy.GeneralApps.GeneralAppOne.DataLayer
 {
     public partial class AuthenticationContextExample : ContextBase
     {

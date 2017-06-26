@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Runtime.Serialization;
 using DotNetNancy.Generic.Data.Core;
 
-namespace DotNetNancy.Model
+namespace DotNetNancy.GeneralApps.GeneralAppOne.Models
 {
     [DataContract]
     public partial class AuthorizedUser : IEntity

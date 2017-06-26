@@ -1,15 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using DotNetNancy.Model;
-using AuthorizedUser = DotNetNancy.Model.AuthorizedUser;
-using UserLoginInfo = DotNetNancy.Model.UserLoginInfo;
+using AuthorizedUser = DotNetNancy.GeneralApps.GeneralAppOne.Models.AuthorizedUser;
 using DotNetNancy.Generic.Data.Core;
-using DotNetNancy.GeneralApps.Generic.DataLayer;
+using DotNetNancy.GeneralApps.GeneralAppOne.Models;
 
-namespace DotNetNancy.DataLayer
+namespace DotNetNancy.GeneralApps.GeneralAppOne.DataLayer
 {
     public class AuthorizedUserRepository :
         GenericDataRepository<AuthorizedUser, AuthenticationContextExample>, IAuthorizedUserRepository

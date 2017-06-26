@@ -3,9 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNancy.Data.Core", "DotNetNancy.Data.Core.csproj", "{61FD1844-CAB1-40BB-B2E7-A9B8B6C3FA11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNancy.Data.Core", "DotNetNancy.Data.Core\DotNetNancy.Data.Core.csproj", "{61FD1844-CAB1-40BB-B2E7-A9B8B6C3FA11}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNancy.Data.Core.Example", "..\DotNetNancy.Data.Core.Example\DotNetNancy.Data.Core.Example.csproj", "{E5B68192-A0FB-4CA9-BBFB-68EE8A3400A6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetNancy.Data.Core.Example", "DotNetNancy.Data.Core.Example\DotNetNancy.Data.Core.Example.csproj", "{E5B68192-A0FB-4CA9-BBFB-68EE8A3400A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "nuget", "nuget", "{36D3B978-39AD-4D7E-B31C-64C221AFBE95}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
